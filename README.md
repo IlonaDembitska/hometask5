@@ -51,5 +51,5 @@ sudo touch /root/folder1/test1.txt
 sleep 5
 ls /root/folder2
 
-# 5️⃣ Зупинити демон (якщо потрібно)
+# 5️ Зупинити демон (якщо потрібно)
 sudo systemctl stop move_daemon.service
