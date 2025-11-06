@@ -38,7 +38,7 @@ systemctl enable move_daemon.service
 
 Ilona Dembitska, [04.11.2025 18:17]
 # 1️ Підключитись до EC2
-ssh -i "Anna-dev.pem" ubuntu@<твій_public_ip>
+ssh -i "ilonaIXT.pem" ubuntu@<твій_public_ip>
 
 # 2️ Перевірити статус демона
 sudo systemctl status move_daemon.service
